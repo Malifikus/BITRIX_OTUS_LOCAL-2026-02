@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("OTUS ДЗ Отладка и логирование");
 # Подключаем класс логгера
 require_once $_SERVER['DOCUMENT_ROOT'] . '/local/classes/OTUSLogger.php';
 
-# Получаем IP
+# Получаем IP адресс
 $ip = $_SERVER['REMOTE_ADDR'] ?? '127.0.0.1';
 
 # Пишем в лог

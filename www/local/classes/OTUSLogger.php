@@ -2,7 +2,7 @@
 
 class OTUSLogger
 {
-    # Записывает OTUS в лог
+    # Записывает префикс OTUS в лог
     public static function log($message)
     {
         # Делаем строку с датой и префиксом OTUS
