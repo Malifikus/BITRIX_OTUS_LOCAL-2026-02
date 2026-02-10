@@ -5,7 +5,7 @@ class OTUSLogger
     # Записывает OTUS в лог
     public static function log($message)
     {
-        # Делаем строку с датой и OTUS
+        # Делаем строку с датой и префиксом OTUS
         $entry = "[" . date('Y-m-d H:i:s') . "] OTUS " . $message . "\n";
         
         # Путь к файлу лога
