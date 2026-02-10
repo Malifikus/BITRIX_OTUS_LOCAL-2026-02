@@ -1,0 +1,13 @@
+{
+    "name": "malifikus/bitrix-simple",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Malifikus",
+            "email": "vladikchelny@mail.ru"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^7.4"
+    }
+}

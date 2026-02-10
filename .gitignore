@@ -1,0 +1,28 @@
+# Docker
+.env
+docker-compose.override.yml
+
+# Logs
+*.log
+otus.log
+
+# Uploads
+www/upload/
+
+# Bitrix core — НЕ в Git!
+www/bitrix/****
+!www/bitrix/**.settings.php
+!www/bitrix/**php_interface/
+!www/bitrix/**php_interface/init.php
+
+# Composer
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Комментарий для Git #2
