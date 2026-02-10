@@ -15,6 +15,9 @@ www/bitrix/****
 !www/bitrix/**php_interface/
 !www/bitrix/**php_interface/init.php
 
+# Git
+.git-backup/
+
 # Composer
 /vendor/
 
@@ -25,4 +28,4 @@ www/bitrix/****
 .DS_Store
 Thumbs.db
 
-# Комментарий для Git #2
+# Комментарий для Git #2.git-backup/
