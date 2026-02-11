@@ -10,6 +10,7 @@ return [
             'log' => null,
         ],
         'readonly' => false,
+        
     ],
     'connections' => [
         'value' => [
